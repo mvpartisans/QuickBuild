@@ -4,7 +4,7 @@ node {
 
     coreBuild {[
             "lfs-a": "May-Release",
-            "lfs-b": "newBranch",
+            "lfs-b": "May-Release",
             "lfs-c": "newBranch",
             "lfs-d": "newBranch"
     ]}
