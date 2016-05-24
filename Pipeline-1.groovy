@@ -8,9 +8,9 @@ def buildLib = fileLoader.fromGit('BuildLib.groovy',
 node {
 
     buildLib.coreBuild {[
-            "lfs-a": "May-Release",
-            //"lfs-b": "May-Release",
-            "lfs-c": "newBranch"
+            "lfs-a": "master",
+            "lfs-b": "master"
+            //"lfs-c": "newBranch"
             //"lfs-d": "newBranch"
     ]}
 
