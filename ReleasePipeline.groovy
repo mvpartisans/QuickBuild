@@ -12,6 +12,6 @@ node {
             "lfs-b": "master"
     ]}*/
 
-    buildLib.deploy(['host1']);
+    buildLib.deploy('host1');
 
 }
