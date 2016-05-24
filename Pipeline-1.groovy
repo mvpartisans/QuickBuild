@@ -9,9 +9,9 @@ node {
 
     buildLib.coreBuild {[
             "lfs-a": "May-Release",
-            "lfs-b": "May-Release",
-            "lfs-c": "newBranch",
-            "lfs-d": "newBranch"
+            //"lfs-b": "May-Release",
+            "lfs-c": "newBranch"
+            //"lfs-d": "newBranch"
     ]}
 
 }
