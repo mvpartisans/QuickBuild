@@ -7,11 +7,13 @@ def buildLib = fileLoader.fromGit('BuildLibRelease.groovy',
 
 node {
 
-/*    buildLib.coreBuild {[
+    buildLib.coreBuild (['hst1', 'host']) {[
             "lfs-a": "master",
             "lfs-b": "master"
-    ]}*/
+    ]}
 
     buildLib.deploy('host1');
+
+
 
 }
